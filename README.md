@@ -5,7 +5,7 @@ The goal is to have the actuarial community author our textbooks in a collaborat
 
 ## Loss Data Analytics Short Course
 
-This project is about creating a short course based on the *Loss Data Analytics* book - see below for a description of the book. [See the short course propoposal](file:///C:/Users/Jed/Dropbox/AstinAcademy/LDAShortCourse1/docs/index.html).
+This project is about creating a short course based on the *Loss Data Analytics* book - see below for a description of the book. [See the short course proposal](https://openacttextdev.github.io/LDAShortCourse1/index.html).
 
 
 ## Loss Data Analytics
