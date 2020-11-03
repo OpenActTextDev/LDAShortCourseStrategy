@@ -1,0 +1,14 @@
+book_filename: "LDAShortCourse"
+output_dir: "docs"
+rmd_files: ["index.Rmd", 
+#           "References/Packages.Rmd",
+#           "References/Glossary.Rmd",
+#           "References/PdfOutput.Rmd",
+           "Chapters/Preface.Rmd"]
+           #, 
+#           "Chapters/NotationConventionsLC.Rmd",
+#           "Chapters/Bibliography.Rmd"]
+           
+language:
+  ui:
+    chapter_name: "Chapter "
