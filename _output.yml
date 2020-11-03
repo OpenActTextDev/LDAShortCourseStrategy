@@ -16,9 +16,9 @@ bookdown::gitbook:
     toc:
       collapse: subsection
       before: |
-        <li><a href="./">LDAShortCourse</a></li>
+        <li><a href="./">LDAShortCourse1</a></li>
       after: |
-        <li><a href="https://github.com/OpenActTextDev/LDAShortCourse" target="blank">LDA Short Course on GitHub</a></li>
+        <li><a href="https://github.com/OpenActTextDev/LDAShortCourse1" target="blank">LDA Short Course on GitHub</a></li>
   toc_depth: 3
   edit: https://github.com/rstudio/bookdown-demo/edit/master/%s
   download: null

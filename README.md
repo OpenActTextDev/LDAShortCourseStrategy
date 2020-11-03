@@ -1,13 +1,12 @@
 
 # Open Actuarial Textbooks Project Goal
 
-The goal is to have the actuarial community author our textbooks in a collaborative fashion. The text *Loss Data Analytics* represents our first book. 
+The goal is to have the actuarial community author our textbooks in a collaborative fashion. The text *Loss Data Analytics* represents our first book.
 
-## Life Contingencies: The Mathematics, Statistics, and Economics of Life Insurance
+## Loss Data Analytics Short Course
 
-This respository is focused on a new text, currently titled *Life Contingencies: The Mathematics, Statistics, and Economics of Life Insurance*. A summary of the book is available [online](https://openacttextdev.github.io/LifeCon/index.html), code for the book is available above. One way to get a working copy of the code is to hit the green "Code button" and then "Download ZIP".
+This project is about creating a short course based on the *Loss Data Analytics* book - see below for a description of the book. [See the short course propoposal](file:///C:/Users/Jed/Dropbox/AstinAcademy/LDAShortCourse1/docs/index.html).
 
-More to come later.
 
 ## Loss Data Analytics
 
@@ -35,3 +34,8 @@ Code, data, offline versions and more are available through these portals.
 
 See the [Open Actuarial Textbooks Project Site](https://sites.google.com/a/wisc.edu/loss-data-analytics/) for more information about this project.
 
+## Life Contingencies: The Mathematics, Statistics, and Economics of Life Insurance
+
+A team is also working on a new text, tentatively titled *Life Contingencies: The Mathematics, Statistics, and Economics of Life Insurance*. A summary of the book is available [online](https://openacttextdev.github.io/LifeCon/index.html), code for the book is available above. One way to get a working copy of the code is to hit the green "Code button" and then "Download ZIP".
+
+More to come later.
