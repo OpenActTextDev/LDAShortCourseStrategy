@@ -16,7 +16,7 @@ bookdown::gitbook:
     toc:
       collapse: subsection
       before: |
-        <li><a href="./">LDAShortCourse1</a></li>
+        <li><a href="./">Loss Data Analytics: Short Course</a></li>
       after: |
         <li><a href="https://github.com/OpenActTextDev/LDAShortCourse1" target="blank">LDA Short Course on GitHub</a></li>
   toc_depth: 3

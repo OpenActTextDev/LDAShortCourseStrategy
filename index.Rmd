@@ -22,12 +22,21 @@ description: "This is an interactive, online, freely short course. It will conta
 
 ```
 
-# Proposal {-}
+# Overview {-}
 
 <p style="text-align:right;">
 *Date: `r format(Sys.Date(), "%d %B %Y")`*</p>
 
-<!-- `r if (knitr:::is_html_output()) '$\\require{enclose}$'` -->
+This outlines a proposed model to develop a short course based on the open and free [Loss Data Analytics](https://openacttexts.github.io/) textbook.
+
+
+*  Part \@ref(C:Proposal) summarizes the short course proposal that contains the development strategy.
+*  Part \@ref(C:Instructions) provides instructions for contributors. The goal is to promote consistency among chapters and, later on, courses, this section describes a number of **best practices.** These are guidelines to be observed, not strict rules.
+*  Part \@ref(C:AlternativeCourse) provides links to other courses that we can use to develop our short course model.
+
+
+
+
 
 
 

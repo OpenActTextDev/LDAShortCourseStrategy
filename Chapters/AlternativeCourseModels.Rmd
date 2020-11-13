@@ -1,0 +1,12 @@
+
+
+# Alternative Course Models {#C:AlternativeCourse}
+
+As we develop our principles of formulating effective short courses, it will be helpful to benchmark against alternative course models. Here is a list of a few; expect to see this list grow.
+
+
+*  [Elementary Statistics with R](http://www.r-tutor.com/elementary-statistics)
+*  [Regression Methods](https://online.stat.psu.edu/stat501/)
+
+
+

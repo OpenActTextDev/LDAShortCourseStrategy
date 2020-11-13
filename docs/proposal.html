@@ -31,7 +31,7 @@
   
   
 
-<link rel="next" href="C-Proposal.html"/>
+<link rel="next" href="instructions-for-contributors.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -191,15 +191,14 @@ var submitAnswer = function() {
 <li><a href="./">Loss Data Analytics: Short Course</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a></li>
-<li class="chapter" data-level="1" data-path="C-Proposal.html"><a href="C-Proposal.html"><i class="fa fa-check"></i><b>1</b> Proposal</a></li>
-<li class="chapter" data-level="2" data-path="C-Instructions.html"><a href="C-Instructions.html"><i class="fa fa-check"></i><b>2</b> Instructions for Contributors</a><ul>
-<li class="chapter" data-level="2.1" data-path="C-Instructions.html"><a href="C-Instructions.html#video-contributors"><i class="fa fa-check"></i><b>2.1</b> Video Contributors</a></li>
-<li class="chapter" data-level="2.2" data-path="C-Instructions.html"><a href="C-Instructions.html#tutorial-problem-contributors"><i class="fa fa-check"></i><b>2.2</b> Tutorial Problem Contributors</a><ul>
-<li class="chapter" data-level="2.2.1" data-path="C-Instructions.html"><a href="C-Instructions.html#submission-correction-tests"><i class="fa fa-check"></i><b>2.2.1</b> Submission Correction Tests</a></li>
+<li class="chapter" data-level="" data-path="proposal.html"><a href="proposal.html"><i class="fa fa-check"></i>Proposal</a></li>
+<li class="chapter" data-level="" data-path="instructions-for-contributors.html"><a href="instructions-for-contributors.html"><i class="fa fa-check"></i>Instructions for Contributors</a><ul>
+<li class="chapter" data-level="" data-path="instructions-for-contributors.html"><a href="instructions-for-contributors.html#video-contributors"><i class="fa fa-check"></i>Video Contributors</a></li>
+<li class="chapter" data-level="" data-path="instructions-for-contributors.html"><a href="instructions-for-contributors.html#tutorial-problem-contributors"><i class="fa fa-check"></i>Tutorial Problem Contributors</a><ul>
+<li class="chapter" data-level="" data-path="instructions-for-contributors.html"><a href="instructions-for-contributors.html#submission-correction-tests"><i class="fa fa-check"></i>Submission Correction Tests</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="C-AlternativeCourse.html"><a href="C-AlternativeCourse.html"><i class="fa fa-check"></i><b>3</b> Alternative Course Models</a></li>
+<li class="chapter" data-level="" data-path="alternative-course-models.html"><a href="alternative-course-models.html"><i class="fa fa-check"></i>Alternative Course Models</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/OpenActTextDev/LDAShortCourse1" target="blank">LDA Short Course on GitHub</a></li>
 
@@ -224,18 +223,57 @@ var submitAnswer = function() {
 <h1 class="title">Loss Data Analytics: Short Course</h1>
 <p class="author"><em>A short course authored by the Actuarial Community</em></p>
 </div>
-<div id="overview" class="section level1 unnumbered">
-<h1>Overview</h1>
+<div id="proposal" class="section level1 unnumbered">
+<h1>Proposal</h1>
 <p style="text-align:right;">
 <em>Date: 13 November 2020</em>
 </p>
-<p>This outlines a proposed model to develop a short course based on the open and free <a href="https://openacttexts.github.io/">Loss Data Analytics</a> textbook.</p>
+<p>This is a proposal for a course formed under the auspices of the <em>Astin Academy</em>. The proposal has been approved for adoption by the Astin Board. A <a href="https://www.actuaries.org/IAA/Documents/ASTIN/Newsletters/2020/ASTIN%20Newsletter_Oct%202020_Final.pdf">call for volunteers</a> has gone out.</p>
+<p><strong>Course</strong>: A non-synchronous experience that covers the fundamentals of loss data modeling. The course will provide an interactive learning experience through online video explanations, quizzes, and software (<code>R</code>) demonstrations to sharpen student understanding. It may be also used by an in-person instructor who employs a hybrid teaching model that combines this resource with an in-person experience.</p>
+<p><strong>The Audience</strong>: Beginning actuarial students who may not have had an exposure to industry practice. The course assumes that participants have a background in loss data modeling, presumably through reading the book Loss Data Analytics.</p>
+<p><strong>The Method of Delivery</strong>. A web based course hosted on a free server such as Github. The course will include links to videos (that would be hosted on another free server such as Kaltura), and interactive <code>R</code> tutorials, powered by a free server such as Datacamp. The course places a premium on inter-activity - the cost for this is that it presumes ready access to the internet. (Note that in jurisdictions without steady internet access, the book Loss Data Analytics can be downloaded as a .pdf file.)</p>
+<p><strong>The Price for Course Participants</strong>. Zero. This foundation course is geared to aid the development of future generations of actuaries on a worldwide basis.</p>
+<p><strong>Course Design</strong>. The design mimics one developed for a <a href="https://ewfreesres.github.io/RegressModel/index.html">regression course</a> that can complement/substitute for in-person teaching. This online course is authored in <code>R</code> (specifically, using a package called <strong>bookdown</strong>), has many interactive features using html/javascript, links to videos located at a free site (Kaltura), and interactive scripts using an <code>R</code> package called <strong>Datacamp Lite</strong> (written and powered by Datacamp). The course itself is hosted on a free Github site.</p>
+<p>Instead of regression, the new proposed course will be based on loss data modeling. As background, students can rely on the freely available book <a href="https://openacttexts.github.io/">Loss Data Analytics</a>. This book is written by an <a href="https://openacttexts.github.io/Loss-Data-Analytics/index.html#contributors">international author team</a> and follows IAA guidelines on topics. Specifically, the initial version of the proposed course will cover the first five chapters of <em>Loss Data Analytics</em>. For each section of each chapter, there will be</p>
 <ul>
-<li>Part <a href="C-Proposal.html#C:Proposal">1</a> summarizes the short course proposal that contains the development strategy.</li>
-<li>Part <a href="C-Instructions.html#C:Instructions">2</a> provides instructions for contributors. The goal is to promote consistency among chapters and, later on, courses, this section describes a number of <strong>best practices.</strong> These are guidelines to be observed, not strict rules.</li>
-<li>Part <a href="C-AlternativeCourse.html#C:AlternativeCourse">3</a> provides links to other courses that we can use to develop our short course model.</li>
+<li>a video overview (generally 3-8 minutes long),</li>
+<li>overheads and scripts for viewing/reviewing the video,</li>
+<li>a quiz, and
+** one or more interactive <code>R</code> tutorials.</li>
+</ul>
+<p>Including a start and wrap-up of the course, there will be approximately 26 video segments (=1+3+7+5+4+5+1, 1 to start, 3 for chapter 1, 7 for chapter 2, and so on). After having read the book, participants would be able to complete the course in about a day. As an added bonus, we might include industry case studies as additional segments.</p>
+<p><strong>Strategy for Content Development</strong>. The team would be directed by a steering committee, presumably about 3-5 people. Co-chair Miyuki Ebisaki will serve as liaison to the ASTIN council. The steering committee would be responsible for the overall content of the course (the syllabus), attracting appropriate volunteers, managing the progress, and marketing. Members of the steering committee will do the beginning and wrap-up videos.</p>
+<p>To develop the content, for each chapter we will organize a content team. Specifically, we would need</p>
+<ul>
+<li>one person responsible for videos,</li>
+<li>one for the design of the interactive <code>R</code> questions, and</li>
+<li>one to engineer the feedback mechanism for the <code>R</code> questions (a time consuming task).</li>
+</ul>
+<p>All chapter members could contribute to the quizzes. If there are five chapters, this represents 15 (=3 x 5) volunteer positions. Presumably, some volunteers would be up for doing more than one chapter.</p>
+<p>Additional volunteers that would be nice but not essential:</p>
+<ul>
+<li>An expert in <code>R</code> who knows the details of package development/deployment and interactions with html/javascript</li>
+<li>An expert in html/javascript who could help with the integration of RStudio/bookdown</li>
+<li>An expert in creating videos (including closed-captioning) and how to host them</li>
+<li>An expert in git/Github who could guide us in collaborative development</li>
+</ul>
+<p>After the initial version is complete, we will discuss extensions to include other chapters.</p>
+<p><strong>Timeline</strong>. As this is a pilot project, quality is more important than speed.</p>
+<ul>
+<li>This course covers the foundations that do not change all that quickly, so we want a product that can serve the profession on a long-term basis.</li>
+<li>To promote sustainability, we want a quality product that our customers, the students, enjoy and find useful.</li>
+<li>If this is to be a model that the Astin Academy uses as a basis for other courses, we want to get young colleagues involved and have them take ownership.</li>
+</ul>
+<p>All of these aspects point to taking time. Having said that, the design is straightforward and already accomplished in the regression course mentioned above. So, an approximate completion date is six months after the volunteers have been recruited, presumably sometime during the summer of 2021.</p>
+<div id="interested" class="section level4 unnumbered">
+<h4>Interested?</h4>
+<p>If you are interested in participating, please write the co-chairs of the <em>Astin Academy</em>:</p>
+<ul>
+<li>Edward W. (Jed) Frees <a href="mailto:jfrees@bus.wisc.edu" class="email">jfrees@bus.wisc.edu</a></li>
+<li>Miyuki Ebisaki <a href="mailto:mebisaki@sompo-ri.co.jp" class="email">mebisaki@sompo-ri.co.jp</a></li>
 </ul>
 
+</div>
 </div>
             </section>
 
@@ -243,7 +281,7 @@ var submitAnswer = function() {
         </div>
       </div>
 
-<a href="C-Proposal.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="instructions-for-contributors.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

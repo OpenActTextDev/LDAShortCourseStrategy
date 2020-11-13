@@ -1,0 +1,60 @@
+
+
+# Instructions for Contributors {#C:Instructions}
+
+
+
+To get a feel for what we are trying to produce, start by looking over the [Online Tutorial](https://ewfreesres.github.io/RegressModel/) *on Regression Modeling*. 
+
+
+## Video Contributors 
+
+Each chapter will have 3-8 sections, roughly corresponding to the book.
+
+**Goal.** The purpose of the video is to provide an interactive experience, where learners can review the main ideas of the book.
+
+**Learning Objectives**
+
+*  Start each section with a set of 3 or 4 learning objectives.
+*  For each section, the video will reinforce the learning objectives. It is okay to use the learning objectives from the text. Then, the video will provide exactly the information needed for the learner to complete the interactive exercises.
+
+**Background of Viewers.** You can assume that the viewer will have read the text. However, just as students in your classes, they will probably have forgotten the substance. So, big points need to be reinforced.
+
+**Relationship with Tutorials**
+
+*  As part of the purpose of the video is to provide background for the tutorials, there will need to be close co-ordination between the two.
+*  Sometimes a video can provide a complicated analysis of a data set and then the tutorial can ask the learner to go through essentially the same analysis albeit with modifications.
+*  Many of the overheads will provide a combination of code and output from the code. Explain this to the viewer in a way that he or she can reproduce it in a related situation.
+
+
+
+## Tutorial Problem Contributors
+
+For each section, the goal is to have one or two tutorial exercises that will reinforce learning objectives of the section.
+
+**Assignment Text**. Start with a set of background information known as the assignment text. This is relatively brief. For example, Datacamp recommends 540 characters with a target range of 30 to 780 characters.
+
+**Instructions**. Next comes a set of instructions, typically written in a bullet fashion where each bullet corresponds to a part. 
+
+*  The target is for three parts but this may range from 1 to 4
+*  For each part, the ideal is 360 characters with a target range of 30 to 480 characters.
+
+**Hints** may also be provided. Again they should be short (about 270 characters) and there may be from 0 to 4 hints per exercise.
+
+A correct solution must be provided. If the learner does not get the correct solution, then the **submission correction tests** provide guidance on the source of the mistakes.
+
+
+**Datacamp Light URLs**. To get a better sense as to how the software makes this happen, start with the foundations of [DataCamp Light](https://cdn.datacamp.com/dcl-react-prod/index.html). 
+
+*  It may be that the [source code](https://github.com/datacamp/datacamp-light) can also be helpful.
+*  Here is guidance on installing the ["tutorial" package](https://datacamp.github.io/tutorial/) as well as the [Rdrr](https://rdrr.io/cran/tutorial/) version.
+
+
+### Submission Correction Tests
+
+These are fairly specialized and so we hope to get one or two volunteers that will focus on this aspect. 
+
+*  Fortunately, we have an overview that was written by a Wisconsin student. See the description of *DataCamp Light's* [Submission Correctness Tests](https://ewfreesres.github.io/SCT-in-R/index.html).
+*  Alternatively (or in addition), you might want to check out:
+      *  https://github.com/datacamp/testwhat
+      *  https://authoring.datacamp.com/courses/exercises/technical-details/sct.html
