@@ -3,7 +3,9 @@ title: "Loss Data Analytics: Short Course"
 author: "A short course authored by the Actuarial Community"
 site: bookdown::bookdown_site
 output:
-  bookdown::gitbook
+  bookdown::gitbook:
+    includes:
+      after_body: disqus.html  
 documentclass: book
 bibliography: ["References/LDAReference2020A.bib"]
 biblio-style: econPeriod
