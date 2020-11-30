@@ -9,5 +9,5 @@ As we develop our principles of formulating effective short courses, it will be 
 *  [Regression Methods](https://online.stat.psu.edu/stat501/)
 
 
-```{html child = 'disqus.html'}
+```{html eval = FALSE, child = 'disqus.html'}
 ```
