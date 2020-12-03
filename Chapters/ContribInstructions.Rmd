@@ -43,6 +43,56 @@ For each section, the goal is to have one or two tutorial exercises that will re
 
 A correct solution must be provided. If the learner does not get the correct solution, then the **submission correction tests** provide guidance on the source of the mistakes.
 
+```{r echo = FALSE, eval = FALSE}
+library(bsplus)
+library(downloadthis)
+Insample <- read.csv("Data/PropertyFundInsample.csv", header = T)
+#str(Insample)
+# bs_collapse(
+#   id = "ex_collapse", 
+#   content = tags$div(class = "well", "Yeah Yeah Yeah")
+# ) 
+# bs_button("She Loves You", button_type = "primary") %>%
+#   bs_attach_collapse("ex_collapse")
+
+
+Insample %>%
+  download_this(
+    output_name = "Property Data dataset",
+    output_extension = ".csv",
+    button_label = "Download data",
+    button_type = "warning",
+    has_icon = TRUE,
+    icon = "fa fa-save"
+  )
+```
+
+
+```{r echo = FALSE, eval = FALSE}
+#devtools::install_github("datadotworld/dwapi-r", build_vignettes = TRUE)
+library(bsplus)
+library(dwapi)
+dwapi::configure(auth_token = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OmV3ZnJlZXMiLCJpc3MiOiJhZ2VudDpld2ZyZWVzOjplNjUxYjEwNC1lMThlLTQ1YzQtOTBjOS1kOWVlY2VlOThjNmYiLCJpYXQiOjE2MDcwMTQ4MjYsInJvbGUiOlsidXNlcl9hcGlfcmVhZCIsInVzZXJfYXBpX3dyaXRlIl0sImdlbmVyYWwtcHVycG9zZSI6dHJ1ZSwic2FtbCI6e319.SkZc8iv5JxfQcbdEARuRYPP7wN9S8DYejT3hFpigdwqo8z3Y5rzmjo7J_wtQWbAxAqEy5huRdGjv2iKcT2KoJw")
+
+bs_button("She Loves You Not", button_type = "primary") %>%
+  dwapi::download_file(dataset = 'C:/Users/Jed/Dropbox/AstinAcademy/LDAShortCourse1/Data',
+   file_name = 'PropertyFundInsample.csv', output = tempfile(fileext = 'csv'))
+
+```
+
+
+```{r}
+library(bsplus)
+# library(runonce)
+# bs_button("She Loves You Not", button_type = "primary") %>%
+#   download_file(url 'C:/Users/Jed/Dropbox/AstinAcademy/LDAShortCourse1/Data/PropertyFundInsample.csv')
+
+
+xfun::embed_files(c('Data/PropertyFundInsample.csv'))  
+  
+```
+
+
 
 **Datacamp Light URLs**. To get a better sense as to how the software makes this happen, start with the foundations of [DataCamp Light](https://cdn.datacamp.com/dcl-react-prod/index.html). 
 
