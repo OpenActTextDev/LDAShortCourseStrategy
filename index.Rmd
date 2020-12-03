@@ -32,7 +32,7 @@ This outlines a proposed model to develop a short course based on the open and f
 
 *  Part \@ref(C:Proposal) summarizes the short course proposal that contains the development strategy.
 *  Part \@ref(C:Instructions) provides instructions for contributors. The goal is to promote consistency among chapters and, later on, courses, this section describes a number of **best practices.** These are guidelines to be observed, not strict rules.
-*  Part \@ref(C:AlternativeCourse) provides links to other courses that we can use to develop our short course model.
+*  Part \@ref(C:VolunteerCall) provides a general call for volunteers as well as thoughts on strategies we might adopt to develop our short course model.
 
 
 

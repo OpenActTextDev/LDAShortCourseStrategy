@@ -1,6 +1,10 @@
 
+# A Call for Volunteers {#C:VolunteerCall}
 
-# Alternative Course Models {#C:AlternativeCourse}
+The proposal and plan to date is based on a developed book [Loss Data Analytics](https://openacttexts.github.io/) as well as a template for a comparable [online tutorial](https://ewfreesres.github.io/RegressModel/) on regression that has worked well so far. However, as we gain access to more creative and dedicated volunteers, we are hopeful to improve our model for short course offerings.
+
+
+### Alternative Course Models {-}
 
 As we develop our principles of formulating effective short courses, it will be helpful to benchmark against alternative course models. Here is a list of a few; expect to see this list grow.
 
@@ -9,17 +13,16 @@ As we develop our principles of formulating effective short courses, it will be 
 *  [Regression Methods](https://online.stat.psu.edu/stat501/)
 
 
-## A Call for Volunteers {-}
 
 
-### Use of $R$ as a Tool for Interactive Books and Short Courses {-}
+### Use of *R* as a Tool for Interactive Books and Short Courses {-}
 
 There are many great tools that have been developed to author books (e.g., Word, latex) and interactive short courses (e.g., Wordpress). However, we are using `R` as a tool for writing (books and webpages) through its **markdown** capabilities, including the package `bookdown`. Further, we are using the `R` package `tutorial` from the **Datacamp Lite** suite for our interactive problems. The use of `R` is well known to the actuarial community - we hope that promoting its application for authoring our books and short courses will help in recruiting a broad and sustainable group of authors and other volunteers from the actuarial community.
 
 
 ### Discussion Forum {-}
 
-We are hoping to promote discusion among users of the course, one option we are exploring is the resource [Disqus](https://disqus.com/).
+We are hoping to promote discussion among users of the course, one option we are exploring is the resource [Disqus](https://disqus.com/).
 
 More broadly, an alternative/complementary idea is to include an *Ask a Mentor* button to each chapter section. This would require volunteers to help implement proper design and functionality for this "Reader Seeking Guidance" feature to optimally benefit those who do not have an access to a professor or someone else familiar with the subject content. Volunteers serving content mentors would respond to reader questions and use the questions to improve/transform the content structure, including examples presented to next level or as supplement sections. 
 
@@ -34,7 +37,7 @@ There is also interest in adding audio book and podcast options to the course. T
 
 ### Interactive Features {-}
 
-An online short course can be distinguished from a textbook based on the interactive features offered. [This repository](https://ewfrees.github.io/InteractiveLDA/index.html) describes the interactive features being contemplated in the context of [Loss Data Analytics](https://ewfrees.github.io/). We seek creative volunteers who wish to explore adoption of tools that allows the user to interact with our content.
+An online short course can be distinguished from a textbook based on the quantity and quality of interactive features offered. [This repository](https://ewfrees.github.io/InteractiveLDA/index.html) describes the interactive features being contemplated in the context of [Loss Data Analytics](https://ewfrees.github.io/). We seek creative volunteers who wish to explore adoption of tools that allows the user to interact with our content.
 
 
 
