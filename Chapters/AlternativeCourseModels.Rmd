@@ -1,16 +1,18 @@
 
 # A Call for Volunteers {#C:VolunteerCall}
 
-The proposal and plan to date is based on a developed book [Loss Data Analytics](https://openacttexts.github.io/) as well as a template for a comparable [online tutorial](https://ewfreesres.github.io/RegressModel/) on regression that has worked well so far. However, as we gain access to more creative and dedicated volunteers, we are hopeful to improve our model for short course offerings.
+The proposal and plan to date is based on a developed book [Loss Data Analytics](https://openacttexts.github.io/) as well as a template for a comparable [online tutorial](https://ewfreesres.github.io/RegressModel/) on regression that has worked well so far. However, as we gain access to more creative and dedicated volunteers, we are hopeful to improve our design for short course offerings.
 
 
-### Alternative Course Models {-}
+### Alternative Course Designs {-}
 
-As we develop our principles of formulating effective short courses, it will be helpful to benchmark against alternative course models. Here is a list of a few; expect to see this list grow.
+As we develop our principles of formulating effective short courses, it will be helpful to benchmark against alternative course designs and ideas. Here is a list of a few; expect to see this list grow.
 
 
 *  [Elementary Statistics with R](http://www.r-tutor.com/elementary-statistics)
 *  [Regression Methods](https://online.stat.psu.edu/stat501/)
+*  [Intelligent Tutoring System](http://ctat.pact.cs.cmu.edu/)
+*  Our discussion of [Open Educational Resources](https://sites.google.com/a/wisc.edu/loss-data-analytics/open-educational-resource)
 
 
 
