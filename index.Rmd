@@ -1,6 +1,6 @@
 --- 
-title: "Loss Data Analytics: Short Course"
-author: "A short course authored by the Actuarial Community"
+title: "Loss Data Analytics: Short Course Development Strategy"
+author: "Short courses to be authored by the Actuarial Community"
 site: bookdown::bookdown_site
 output:
   bookdown::gitbook
@@ -10,32 +10,27 @@ biblio-style: econPeriod
 link-citations: yes
 references:
 - type: article-journal
-github-repo: https://github.com/OpenActTextDev/LDAShortCourse1
+github-repo: https://github.com/OpenActTextDev/LDAShortCourseStrategy
 description: "This is an interactive, online, freely short course. It will contain many interactive objects (quizzes, computer demonstrations, interactive graphs, video, and the like) to promote deeper learning."
 ---
-
-
-```{r setup, include=FALSE}
-# options(bookdown.render.file_scope = FALSE)
-# knitr::opts_chunk$set(echo = FALSE)
-# options(knitr.table.format = function() {if (knitr::is_latex_output()) 'latex' else 'pandoc'})
-
-```
 
 # Overview {-}
 
 <p style="text-align:right;">
 *Date: `r format(Sys.Date(), "%d %B %Y")`*</p>
 
-This outlines a proposed model to develop a short course based on the open and free [Loss Data Analytics](https://openacttexts.github.io/) textbook.
+This site outlines a strategy to develop short courses based on a foundation of non-life insurance that we call *loss data analytics*.
 
-
-*  Part \@ref(C:Proposal) summarizes the short course proposal that contains the development strategy.
+*  Part \@ref(C:Proposal) summarizes the short course proposal that outlines the development strategy.
 *  Part \@ref(C:Instructions) provides instructions for contributors. The goal is to promote consistency among chapters and, later on, courses, this section describes a number of **best practices.** These are guidelines to be observed, not strict rules.
 *  Part \@ref(C:VolunteerCall) provides a general call for volunteers as well as thoughts on strategies we might adopt to develop our short course model.
 
+#### Supporting Sites {-}
 
-
+*  The open and free [Loss Data Analytics](https://openacttexts.github.io/) textbook.
+*  A [Regression Modeling Online Tutorial](https://ewfreesres.github.io/RegressModel/) that we mimic (and later, will improve upon).
+*  Work on the development of the first course has already begun. See the latest draft of our [Loss Data Analytics Short Course](https://openacttextdev.github.io/LDACourse1/).
+*  [Github repositories](https://github.com/OpenActTextDev) contain the source files for these materials.
 
 
 
