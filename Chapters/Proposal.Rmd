@@ -2,15 +2,15 @@
 # Proposal {#C:Proposal}
 
 
-This is a proposal for a course formed under the auspices of the *Astin Academy*. The proposal has been approved for adoption by the Astin Board. A [call for volunteers](https://www.actuaries.org/IAA/Documents/ASTIN/Newsletters/2020/ASTIN%20Newsletter_Oct%202020_Final.pdf) has gone out.
+This is a proposal for a course to be formed under the auspices of the *Astin Academy*. The proposal has been approved for adoption by the Astin Board. A [call for volunteers](https://www.actuaries.org/IAA/Documents/ASTIN/Newsletters/2020/ASTIN%20Newsletter_Oct%202020_Final.pdf) has gone out.
 
-**Course**: A non-synchronous experience that covers the fundamentals of loss data modeling. The course will provide an interactive learning experience through online video explanations, quizzes, and software (`R`) demonstrations to sharpen student understanding. It may be also used by an in-person instructor who employs a hybrid teaching model that combines this resource with an in-person experience.
+**Course**: An asynchronous experience that covers the fundamentals of loss data modeling. The course will provide an interactive learning experience through online video explanations, quizzes, and software (`R`) demonstrations to sharpen student understanding. It may be also used by an in-person instructor who employs a hybrid teaching model that combines this resource with an in-person experience.
 
 **The Audience**: Beginning actuarial students who may not have had an exposure to industry practice. The course assumes that participants have a background in loss data modeling, presumably through reading the book Loss Data Analytics. 
 
 **The Method of Delivery**. A web based course hosted on a free server such as Github. The course will include links to videos (that would be hosted on another free server such as Kaltura), and interactive `R` tutorials, powered by a free server such as Datacamp. The course places a premium on inter-activity - the cost for this is that it presumes ready access to the internet. (Note that in jurisdictions without steady internet access, the book Loss Data Analytics can be downloaded as a .pdf file.)
 
-**The Price for Course Participants**. Zero. This foundation course is geared to aid the development of future generations of actuaries on a worldwide basis.
+**The Price for Course Participants**. **Zero**. This foundation course is geared to aid the development of future generations of actuaries on a worldwide basis.
 
 **Course Design**. The design mimics one developed for a [regression course](https://ewfreesres.github.io/RegressModel/index.html) that can complement/substitute for in-person teaching. This online course is authored in `R` (specifically, using a package called **bookdown**), has many interactive features using html/javascript, links to videos located at a free site (Kaltura), and interactive scripts using an `R` package called **Datacamp Lite** (written and powered by Datacamp). The course itself is hosted on a free Github site. 
 

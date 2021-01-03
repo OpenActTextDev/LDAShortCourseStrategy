@@ -32,7 +32,7 @@ Each chapter will have 3-8 sections, roughly corresponding to the book.
 
 *  Everyone does this differently, but one approach is to write out the scripts of what you want to say prior to the recording. [Here](https://github.com/OpenActTextDev/LDACourse1/tree/main/Overheads/LDA1.Chap1.OverheadScripts) are some examples for Chapter 1 of the first course. This makes the first draft much longer but becomes more time efficient for those of us who require multiple drafts to get a good quality video. Think of about 1000 words for an 8 minute video.
 *  A bonus of writing the scripts in advance is that they may be useful when we decide how we wish to add close-captioning to the videos (really useful for international audiences).
-*  Use whatever recording system that you like. If you do not have experience in this, one easily accessible avenue is to use Zoom's ability to record. This is how the Frees examples in Chapter one were done. 
+*  Use whatever recording system that you like. If you do not have experience in this, one easily accessible avenue is to use Zoom's ability to record. This is how the Frees examples in Chapter 1 were done. 
 
 
 ## Tutorial Problem Contributors
@@ -48,10 +48,15 @@ For each section, the goal is to have one or two tutorial exercises that will re
 
 **Hints** may also be provided. Again they should be short (about 270 characters) and there may be from 0 to 4 hints per exercise.
 
+**Solution Code**. Provide the `R` code that solves the problem described in the assignment text and instructions.
+
+**Sample Code**. Copy the solution code and remove selected variables and function names that you think users would learn from filling in. Consider a range of 8-12 lines of code but feel free to deviate to accomplish learning objectives.
+
+**Success Messages**. Give one to three lines providing encouragement for users and summarizing what they have learned in this exercise.
 
 ### Datacamp Light
 
-Tutorial problem contributors do not need to get into the online tutorial system. Just simply provide the problem set-up (assignment and instructions) and the `R`-code solutions. However, if you would like to learn more, see the following.
+Tutorial problem contributors do not need to get into the online tutorial system. Just simply provide the problem set-up (assignment and instructions) and the `R`-code solutions and sample code, with hints and success messages as added plusses. However, if you would like to learn more, see the following.
 
 **Datacamp Light URLs**. To get a better sense as to how the software makes this happen, start with the foundations of [DataCamp Light](https://cdn.datacamp.com/dcl-react-prod/index.html). 
 
@@ -78,7 +83,7 @@ In particular, the `R` package [CASdatasets](http://cas.uqam.ca/) has many good 
 
 ## Submission Correction Tests Contributors {#Sec:SCT}
 
-These are fairly specialized part of the tutorial system; so, we hope to get one or two volunteers that will focus on this aspect. 
+These are fairly specialized part of the tutorial system; so, we hope to get one or two volunteers that will focus on this aspect. They provide guidance to users on how to correct commonly occurring mistakes. They are a super helpful part of so-called "intelligent tutoring systems" but may take us awhile to implement properly. 
 
 *  Fortunately, we have an overview that was written by a Wisconsin student. See the description of *DataCamp Light's* [Submission Correctness Tests](https://ewfreesres.github.io/SCT-in-R/index.html).
 *  Alternatively (or in addition), you might want to check out:
