@@ -56,7 +56,11 @@ For each section, the goal is to have one or two tutorial exercises that will re
 
 ### Datacamp Light
 
-Tutorial problem contributors do not need to get into the online tutorial system. Just simply provide the problem set-up (assignment and instructions) and the `R`-code solutions and sample code, with hints and success messages as added plusses. However, if you would like to learn more, see the following.
+Tutorial problem contributors do not need to get into the online tutorial system. Just simply provide the problem set-up (assignment and instructions) and the `R`-code solutions and sample code, with hints and success messages as added plusses. 
+
+The main thing to understand is that the system takes the `R` code, shoots it to a server someplace that executes the code, and sends results back to the user. Although this is very cool (e.g., `R` need not be installed on the user's machine), an implication is that **not all the packages that we want are installed on this server**. Sadly, *Datacamp* has not upgraded this service in the last 2-3 years, so we have to be careful in the choice of packages we use. [Here](http://documents.datacamp.com/default_r_packages.txt) is a list of packages readily available. If you use a package that you have not seen before in the tutorial, please check it prior to providing `R` code. One exception: for this course, we will use a lot of functions from the `actuar()` package and so intend to make them available individually (by putting the source code on Github). Not too clean but it works.
+
+Moreover, if you would like to learn more, see the following.
 
 **Datacamp Light URLs**. To get a better sense as to how the software makes this happen, start with the foundations of [DataCamp Light](https://cdn.datacamp.com/dcl-react-prod/index.html). 
 
