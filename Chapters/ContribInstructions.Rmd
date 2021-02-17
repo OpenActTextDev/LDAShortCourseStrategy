@@ -91,5 +91,6 @@ These are fairly specialized part of the tutorial system; so, we hope to get one
 
 *  Fortunately, we have an overview that was written by a Wisconsin student. See the description of *DataCamp Light's* [Submission Correctness Tests](https://ewfreesres.github.io/SCT-in-R/index.html).
 *  Alternatively (or in addition), you might want to check out:
-      *  https://github.com/datacamp/testwhat
-      *  https://authoring.datacamp.com/courses/exercises/technical-details/sct.html
+      *  https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests
+      *  https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive
+      *  https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices
