@@ -54,6 +54,10 @@ For each section, the goal is to have one or two tutorial exercises that will re
 
 **Success Messages**. Give one to three lines providing encouragement for users and summarizing what they have learned in this exercise.
 
+<br>
+
+[Here](https://ewfreesres.github.io/SCT-in-R/pre-submission-correctness-test.html) is a description of what these elements look like when coded in `R`.
+
 ### Datacamp Light
 
 Tutorial problem contributors do not need to get into the online tutorial system. Just simply provide the problem set-up (assignment and instructions) and the `R`-code solutions and sample code, with hints and success messages as added plusses. 
@@ -91,6 +95,7 @@ These are fairly specialized part of the tutorial system; so, we hope to get one
 
 *  Fortunately, we have an overview that was written by a Wisconsin student. See the description of *DataCamp Light's* [Submission Correctness Tests](https://ewfreesres.github.io/SCT-in-R/index.html).
 *  Alternatively (or in addition), you might want to check out:
+      *  https://github.com/datacamp/testwhat
       *  https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests
       *  https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive
       *  https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices
