@@ -1,0 +1,113 @@
+---
+title: "Tutorial Template"
+author: "Actuarial Community"
+date: "3 March 2021"
+output: html_document
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(results = "hold")
+#install.packages("tutorial")
+tutorial::go_interactive(greedy = FALSE)
+```
+
+This template illustrates how to code tutorial problems in `R` markdown. It is stand-alone, does not require `R` bookdown, nor other pieces of the online short course (e.g., videos and quizzes). To run this, you first need to install the package `tutorial`.
+
+
+## Tutorial Problem Contributors
+
+For each section, the goal is to have one or two tutorial exercises that will reinforce learning objectives of the section.
+
+**Assignment Text**. Start with a set of background information known as the assignment text. This is relatively brief. For example, Datacamp recommends 540 characters with a target range of 30 to 780 characters.
+
+**Instructions**. Next comes a set of instructions, typically written in a bullet fashion where each bullet corresponds to a part. 
+
+*  The target is for three parts but this may range from 1 to 4
+*  For each part, the ideal is 360 characters with a target range of 30 to 480 characters.
+
+**Hints** may also be provided. Again they should be short (about 270 characters) and there may be from 0 to 4 hints per exercise.
+
+**Solution Code**. Provide the `R` code that solves the problem described in the assignment text and instructions.
+
+**Sample Code**. Copy the solution code and remove selected variables and function names that you think users would learn from filling in. Consider a range of 8-12 lines of code but feel free to deviate to accomplish learning objectives.
+
+**Success Messages**. Give one to three lines providing encouragement for users and summarizing what they have learned in this exercise.
+
+
+Check out the our [Short Course Development Strategy](https://openacttextdev.github.io/LDAShortCourseStrategy/C-Instructions.html#tutorial-problem-contributors) document for more information.
+
+The following exercise is from [Loss Data Analytics Short Course Chapter 1](https://openacttextdev.github.io/LDACourse1/introduction-to-loss-data-analytics.html#Sec:LGPIF). 
+
+### Exercise. Claim Frequency
+
+**Assignment Text**
+
+The Wisconsin Property Fund data has already been read into a data frame called `Insample`. These data consist of claim experience for fund members over the years 2006-2010, inclusive. It includes the frequency of claims `Freq` as well as the claim year `Year`. The video explored the distribution of the claims frequency for year 2010; in this assignment, we replicate this analysis and conduct a similar investigation for year 2009.
+
+
+***
+
+**Instructions**. For each year:
+
+
+-  Use the function [subset()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset) to create a smaller data set based on a single year.
+-  Define the frequency as a global variable.
+-  Use the function [length()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/length) to determine the number of observations in a vector.
+-  Use the function [mean()](https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/mean/) to calculate the average.
+-  Use the function [table()](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/table) to tabulate the frequency distribution.
+
+***
+
+
+
+```{r ex="LDA1.3.1.1", type="hint", tut=TRUE}
+Take some time to explore the online `R` documentation.
+
+Note the double equal signs `==` needed for the the `subset()` function.
+```
+
+
+```{r ex="LDA1.3.1.1", type="pre-exercise-code", tut=TRUE}
+Insample <- read.csv("https://raw.githubusercontent.com/OpenActTextDev/LDACourse1/main/Data/Insample.csv", header=T,
+                      na.strings=c("."), stringsAsFactors=FALSE)
+```
+
+
+```{r ex="LDA1.3.1.1", type="sample-code", tut=TRUE}
+#  Analysis for Year 2010
+Insample2010 <- subset(Insample, Year==2010)
+Freq2010 <- Insample2010$Freq
+length(Freq2010)
+mean(Freq2010)
+table(Freq2010)
+
+#  Analysis for Year 2009
+Insample2009 <- ___
+Freq2009 <- ___
+length(___)
+mean(___)
+table(___)
+```
+
+
+```{r ex="LDA1.3.1.1", type="solution", tut=TRUE}
+#  Analysis for Year 2010
+Insample2010 <- subset(Insample, Year==2010)
+Freq2010 <- Insample2010$Freq
+length(Freq2010)
+mean(Freq2010)
+table(Freq2010)
+
+#  Analysis for Year 2009
+Insample2009 <- subset(Insample, Year==2009)
+Freq2009 <- Insample2009$Freq
+length(Freq2009)
+mean(Freq2009)
+table(Freq2009)
+```
+
+```{r ex="LDA1.3.1.1", type="sct", tut=TRUE}
+success_msg("Getting started is always the hardest thing to do. Excellent start!")
+```
+
