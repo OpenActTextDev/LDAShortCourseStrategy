@@ -52,11 +52,10 @@ For each section, the goal is to have one or two tutorial exercises that will re
 
 **Sample Code**. Copy the solution code and remove selected variables and function names that you think users would learn from filling in. Consider a range of 8-12 lines of code but feel free to deviate to accomplish learning objectives.
 
-**Success Messages**. Give one to three lines providing encouragement for users and summarizing what they have learned in this exercise.
+**Success Messages**. Give one to three lines providing encouragement for users and summarizing what they have learned in this exercise. [Here](https://ewfreesres.github.io/SCT-in-R/pre-submission-correctness-test.html) is a description of what these elements look like when coded in `R`.
 
-<br>
+For most contributors, it is likely that it will be easiest to work with our **TutorialTemplate.Rmd** that you can get when you download the whole site (in the **References** folder), or directly from [here](https://raw.githubusercontent.com/OpenActTextDev/LDAShortCourseStrategy/main/References/TutorialTemplate.Rmd).
 
-[Here](https://ewfreesres.github.io/SCT-in-R/pre-submission-correctness-test.html) is a description of what these elements look like when coded in `R`.
 
 ### Datacamp Light
 
@@ -94,6 +93,7 @@ In particular, the `R` package [CASdatasets](http://cas.uqam.ca/) has many good 
 These are fairly specialized part of the tutorial system; so, we hope to get one or two volunteers that will focus on this aspect. They provide guidance to users on how to correct commonly occurring mistakes. They are a super helpful part of so-called "intelligent tutoring systems" but may take us awhile to implement properly. 
 
 *  Fortunately, we have an overview that was written by a Wisconsin student. See the description of *DataCamp Light's* [Submission Correctness Tests](https://ewfreesres.github.io/SCT-in-R/index.html).
+*  See the examples for the [Regression Modeling Short Course](https://ewfreesres.github.io/RegressModel/index.html). For example, for [Exercise 1.1.1](https://ewfreesres.github.io/RegressModel/regression-and-the-normal-distribution.html#exercise.-fitting-galtons-height-data), take a look at the [sample R code](https://github.com/ewfreesRes/RegressModel/blob/master/Chapters/Chapter1.Rmd) (search on `ex="ExerRegMod1.1.2"`).
 *  Alternatively (or in addition), you might want to check out:
       *  https://github.com/datacamp/testwhat
       *  https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests
