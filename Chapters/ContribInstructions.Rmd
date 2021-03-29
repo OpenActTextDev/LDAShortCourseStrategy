@@ -65,13 +65,11 @@ The main thing to understand is that the system takes the `R` code, shoots it to
 
 Moreover, if you would like to learn more, see the following.
 
-**Datacamp Light URLs**. To get a better sense as to how the software makes this happen, start with the foundations of [DataCamp Light](https://cdn.datacamp.com/dcl-react-prod/index.html). 
+**Datacamp Light URLs**. [Datacamp](https://www.datacamp.com/) has created a javascript app called *Datacamp Light* that allows for an interactive learning platform in an html environment. In this general app, you do not need to work in an `R` environment but, since we are doing so, life is easier. See https://github.com/datacamp/datacamp-light.
 
-*  It may be that the [source code](https://github.com/datacamp/datacamp-light) can also be helpful.
-*  Here is guidance on installing the ["tutorial" package](https://datacamp.github.io/tutorial/) as well as the [Rdrr](https://rdrr.io/cran/tutorial/) version.
+Tutorial problem contributors can start with the R `tutorial` package that one can install, for example, in `R` markdown. In the package [documentation](https://datacamp.github.io/tutorial/), you can see that one can also code up Python exercises with "tutorial". With `R` markdown, we are producing html output. The tutorial package generates some javascript syntax needed from our problems, so we will not need the general *Datacamp Light* app. However, as we are all interested in learning, it may be that the [source code](https://github.com/datacamp/datacamp-light) will be of interest.
 
-Users ultimately want to see a correct solution. If the learner does not get the correct solution, then the Section \@ref(Sec:SCT) **submission correction tests** provide guidance on the source of the mistakes.
-
+Users ultimately want to see a correct solution. If the learner does not get the correct solution, then the Section \@ref(Sec:SCT) **submission correction tests** provides guidance on correcting the source of the mistakes.
 
 ### Data 
 
@@ -90,12 +88,21 @@ In particular, the `R` package [CASdatasets](http://cas.uqam.ca/) has many good 
 
 ## Submission Correction Tests Contributors {#Sec:SCT}
 
-These are fairly specialized part of the tutorial system; so, we hope to get one or two volunteers that will focus on this aspect. They provide guidance to users on how to correct commonly occurring mistakes. They are a super helpful part of so-called "intelligent tutoring systems" but may take us awhile to implement properly. 
+These are fairly specialized part of the tutorial system; so, our strategy is to have one or two volunteers that will focus on this aspect. They provide guidance to users on how to correct commonly occurring mistakes. They are a super helpful part of so-called "intelligent tutoring systems" but may take us awhile to implement properly. 
 
-*  Fortunately, we have an overview that was written by a Wisconsin student. See the description of *DataCamp Light's* [Submission Correctness Tests](https://ewfreesres.github.io/SCT-in-R/index.html).
+Like the app *Datacamp Light*, Datacamp has created an app called *testwhat* for providing feedback on the `R` version of *Datacamp Light* (another app called [pythonwhat](https://pythonwhat.readthedocs.io/en/latest/) is for Python code. [Other apps](https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive) are also available for SQL, Shell, and Spreadsheets.). 
+
+Our users submit their code to Datacamp servers and so there is nothing for us to install.
+
+The Submission Correction Tests (SCTs) provides us an opportunity to give "individualized" feedback to help students learn from their mistakes. The basics of the syntax are available from the [testwhat site]( https://datacamp.github.io/testwhat/). **Go through each of the tabs (Syntax, Glossary, Guides, and so on).** Our main challenge will be to anticipate the main types of mistakes that students might make and provide code to help them along.
+
+Here are some additional sources that may be helpful:
+
+*  We have an overview that was written by a [Wisconsin student](https://ewfreesres.github.io/SCT-in-R/index.html). Given the new version of the [testwhat site]( https://datacamp.github.io/testwhat/), it is not as important now. Still, nice to get a student's perspective.
 *  See the examples for the [Regression Modeling Short Course](https://ewfreesres.github.io/RegressModel/index.html). For example, for [Exercise 1.1.1](https://ewfreesres.github.io/RegressModel/regression-and-the-normal-distribution.html#exercise.-fitting-galtons-height-data), take a look at the [sample R code](https://github.com/ewfreesRes/RegressModel/blob/master/Chapters/Chapter1.Rmd) (search on `ex="ExerRegMod1.1.2"`).
-*  Alternatively (or in addition), you might want to check out:
-      *  https://github.com/datacamp/testwhat
-      *  https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests
-      *  https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive
-      *  https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices
+*  Alternatively (or in addition), here are articles from *Datacamp* that you might want to check out:
+      *  [Overview of SCTs](https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests)
+      *  [Deep Dive](https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive)
+      *  [Best Practices](https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices)
+      
+      

@@ -274,12 +274,9 @@ var submitAnswer = function() {
 <p>Tutorial problem contributors do not need to get into the online tutorial system. Just simply provide the problem set-up (assignment and instructions) and the <code>R</code>-code solutions and sample code, with hints and success messages as added plusses.</p>
 <p>The main thing to understand is that the system takes the <code>R</code> code, shoots it to a server someplace that executes the code, and sends results back to the user. Although this is very cool (e.g., <code>R</code> need not be installed on the user’s machine), an implication is that <strong>not all the packages that we want are installed on this server</strong>. Sadly, <em>Datacamp</em> has not upgraded this service in the last 2-3 years, so we have to be careful in the choice of packages we use. <a href="http://documents.datacamp.com/default_r_packages.txt">Here</a> is a list of packages readily available. If you use a package that you have not seen before in the tutorial, please check it prior to providing <code>R</code> code. One exception: for this course, we will use a lot of functions from the <code>actuar()</code> package and so intend to make them available individually (by putting the source code on Github). Not too clean but it works.</p>
 <p>Moreover, if you would like to learn more, see the following.</p>
-<p><strong>Datacamp Light URLs</strong>. To get a better sense as to how the software makes this happen, start with the foundations of <a href="https://cdn.datacamp.com/dcl-react-prod/index.html">DataCamp Light</a>.</p>
-<ul>
-<li>It may be that the <a href="https://github.com/datacamp/datacamp-light">source code</a> can also be helpful.</li>
-<li>Here is guidance on installing the <a href="https://datacamp.github.io/tutorial/">“tutorial” package</a> as well as the <a href="https://rdrr.io/cran/tutorial/">Rdrr</a> version.</li>
-</ul>
-<p>Users ultimately want to see a correct solution. If the learner does not get the correct solution, then the Section <a href="C-Instructions.html#Sec:SCT">2.3</a> <strong>submission correction tests</strong> provide guidance on the source of the mistakes.</p>
+<p><strong>Datacamp Light URLs</strong>. <a href="https://www.datacamp.com/">Datacamp</a> has created a javascript app called <em>Datacamp Light</em> that allows for an interactive learning platform in an html environment. In this general app, you do not need to work in an <code>R</code> environment but, since we are doing so, life is easier. See <a href="https://github.com/datacamp/datacamp-light" class="uri">https://github.com/datacamp/datacamp-light</a>.</p>
+<p>Tutorial problem contributors can start with the R <code>tutorial</code> package that one can install, for example, in <code>R</code> markdown. In the package <a href="https://datacamp.github.io/tutorial/">documentation</a>, you can see that one can also code up Python exercises with “tutorial”. With <code>R</code> markdown, we are producing html output. The tutorial package generates some javascript syntax needed from our problems, so we will not need the general <em>Datacamp Light</em> app. However, as we are all interested in learning, it may be that the <a href="https://github.com/datacamp/datacamp-light">source code</a> will be of interest.</p>
+<p>Users ultimately want to see a correct solution. If the learner does not get the correct solution, then the Section <a href="C-Instructions.html#Sec:SCT">2.3</a> <strong>submission correction tests</strong> provides guidance on correcting the source of the mistakes.</p>
 </div>
 <div id="data" class="section level3">
 <h3><span class="header-section-number">2.2.2</span> Data</h3>
@@ -302,16 +299,19 @@ var submitAnswer = function() {
 </div>
 <div id="Sec:SCT" class="section level2">
 <h2><span class="header-section-number">2.3</span> Submission Correction Tests Contributors</h2>
-<p>These are fairly specialized part of the tutorial system; so, we hope to get one or two volunteers that will focus on this aspect. They provide guidance to users on how to correct commonly occurring mistakes. They are a super helpful part of so-called “intelligent tutoring systems” but may take us awhile to implement properly.</p>
+<p>These are fairly specialized part of the tutorial system; so, our strategy is to have one or two volunteers that will focus on this aspect. They provide guidance to users on how to correct commonly occurring mistakes. They are a super helpful part of so-called “intelligent tutoring systems” but may take us awhile to implement properly.</p>
+<p>Like the app <em>Datacamp Light</em>, Datacamp has created an app called <em>testwhat</em> for providing feedback on the <code>R</code> version of <em>Datacamp Light</em> (another app called <a href="https://pythonwhat.readthedocs.io/en/latest/">pythonwhat</a> is for Python code. <a href="https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive">Other apps</a> are also available for SQL, Shell, and Spreadsheets.).</p>
+<p>Our users submit their code to Datacamp servers and so there is nothing for us to install.</p>
+<p>The Submission Correction Tests (SCTs) provides us an opportunity to give “individualized” feedback to help students learn from their mistakes. The basics of the syntax are available from the <a href="https://datacamp.github.io/testwhat/">testwhat site</a>. <strong>Go through each of the tabs (Syntax, Glossary, Guides, and so on).</strong> Our main challenge will be to anticipate the main types of mistakes that students might make and provide code to help them along.</p>
+<p>Here are some additional sources that may be helpful:</p>
 <ul>
-<li>Fortunately, we have an overview that was written by a Wisconsin student. See the description of <em>DataCamp Light’s</em> <a href="https://ewfreesres.github.io/SCT-in-R/index.html">Submission Correctness Tests</a>.</li>
+<li>We have an overview that was written by a <a href="https://ewfreesres.github.io/SCT-in-R/index.html">Wisconsin student</a>. Given the new version of the <a href="https://datacamp.github.io/testwhat/">testwhat site</a>, it is not as important now. Still, nice to get a student’s perspective.</li>
 <li>See the examples for the <a href="https://ewfreesres.github.io/RegressModel/index.html">Regression Modeling Short Course</a>. For example, for <a href="https://ewfreesres.github.io/RegressModel/regression-and-the-normal-distribution.html#exercise.-fitting-galtons-height-data">Exercise 1.1.1</a>, take a look at the <a href="https://github.com/ewfreesRes/RegressModel/blob/master/Chapters/Chapter1.Rmd">sample R code</a> (search on <code>ex="ExerRegMod1.1.2"</code>).</li>
-<li>Alternatively (or in addition), you might want to check out:
+<li>Alternatively (or in addition), here are articles from <em>Datacamp</em> that you might want to check out:
 <ul>
-<li><a href="https://github.com/datacamp/testwhat" class="uri">https://github.com/datacamp/testwhat</a></li>
-<li><a href="https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests" class="uri">https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests</a></li>
-<li><a href="https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive" class="uri">https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive</a></li>
-<li><a href="https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices" class="uri">https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices</a></li>
+<li><a href="https://instructor-support.datacamp.com/en/articles/2312002-submission-correctness-tests">Overview of SCTs</a></li>
+<li><a href="https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive">Deep Dive</a></li>
+<li><a href="https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices">Best Practices</a></li>
 </ul></li>
 </ul>
 
