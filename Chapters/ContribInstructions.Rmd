@@ -30,9 +30,14 @@ Each chapter will have 3-8 sections, roughly corresponding to the book.
 
 **Video Production**
 
-*  Everyone does this differently, but one approach is to write out the scripts of what you want to say prior to the recording. [Here](https://github.com/OpenActTextDev/LDACourse1/tree/main/Overheads/LDA1.Chap1.OverheadScripts) are some examples for Chapter 1 of the first course. This makes the first draft much longer but becomes more time efficient for those of us who require multiple drafts to get a good quality video. Think of about 1000 words for an 8 minute video.
-*  A bonus of writing the scripts in advance is that they may be useful when we decide how we wish to add close-captioning to the videos (really useful for international audiences).
 *  Use whatever recording system that you like. If you do not have experience in this, one easily accessible avenue is to use Zoom's ability to record. This is how the Frees examples in Chapter 1 were done. 
+*  Everyone does this differently, but one approach is to write out the scripts of what you want to say prior to the recording. [Here](https://github.com/OpenActTextDev/LDACourse1/tree/main/Overheads/LDA1.Chap1.OverheadScripts) are some examples for Chapter 1 of the first course. This means it takes longer to produce the first draft but is more time efficient for those of us who require multiple drafts to get a good quality video. Think of about 1000 words for an 8 minute video.
+*  A bonus of writing the scripts in advance is that they are helpful when adding closed-captioning to the videos (really useful for international audiences). Here is the system that we used to add closed captions to the videos:
+    *  Go to Youtube, open an account (that is free), and upload the video.
+    *  After a bit of time (needed to process the video), you can go to the "subtitles" part and add captions.
+    *  Upload the script (as a text file) without timings. Then, Youtube will sync up your file with the video and add timings to it. 
+    *  Wait a bit. Ten minutes seemed to work well (although the system warns you it may require more time). Then, you can download the closed-caption file using one of three formats. We use the ".srt" extension because this is what the hosting site (Kaltura) uses. Despite the extension, these are all just text files and so it is simple to edit if you find errors you wish to fix.
+    *  Then, we simply uploaded the video file (often .mpeg) and the closed-caption file to the hosting site. Done. You can delete the work from Youtube, if you wish.
 
 
 ## Tutorial Problem Contributors
@@ -94,7 +99,7 @@ Like the app *Datacamp Light*, Datacamp has created an app called *testwhat* for
 
 Our users submit their code to Datacamp servers and so there is nothing for us to install.
 
-The Submission Correction Tests (SCTs) provides us an opportunity to give "individualized" feedback to help students learn from their mistakes. The basics of the syntax are available from the [testwhat site]( https://datacamp.github.io/testwhat/). **Go through each of the tabs (Syntax, Glossary, Guides, and so on).** Our main challenge will be to anticipate the main types of mistakes that students might make and provide code to help them along.
+The Submission Correction Tests (SCTs) provides us an opportunity to give "individualized" feedback to help students learn from their mistakes. The basics of the syntax are available from the [testwhat site]( https://datacamp.github.io/testwhat/). **Go through each of the tabs (Syntax, Glossary, Guides, and so on).** Our challenge will be to anticipate the main types of mistakes that students might make and provide code to help them along.
 
 Here are some additional sources that may be helpful:
 

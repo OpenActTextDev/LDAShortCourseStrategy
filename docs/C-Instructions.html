@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Part 2 Instructions for Contributors | Loss Data Analytics: Short Course Development Strategy</title>
   <meta name="description" content="This is an interactive, online, freely short course. It will contain many interactive objects (quizzes, computer demonstrations, interactive graphs, video, and the like) to promote deeper learning." />
-  <meta name="generator" content="bookdown 0.19 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Part 2 Instructions for Contributors | Loss Data Analytics: Short Course Development Strategy" />
   <meta property="og:type" content="book" />
@@ -250,9 +250,16 @@ var submitAnswer = function() {
 </ul>
 <p><strong>Video Production</strong></p>
 <ul>
-<li>Everyone does this differently, but one approach is to write out the scripts of what you want to say prior to the recording. <a href="https://github.com/OpenActTextDev/LDACourse1/tree/main/Overheads/LDA1.Chap1.OverheadScripts">Here</a> are some examples for Chapter 1 of the first course. This makes the first draft much longer but becomes more time efficient for those of us who require multiple drafts to get a good quality video. Think of about 1000 words for an 8 minute video.</li>
-<li>A bonus of writing the scripts in advance is that they may be useful when we decide how we wish to add close-captioning to the videos (really useful for international audiences).</li>
 <li>Use whatever recording system that you like. If you do not have experience in this, one easily accessible avenue is to use Zoom’s ability to record. This is how the Frees examples in Chapter 1 were done.</li>
+<li>Everyone does this differently, but one approach is to write out the scripts of what you want to say prior to the recording. <a href="https://github.com/OpenActTextDev/LDACourse1/tree/main/Overheads/LDA1.Chap1.OverheadScripts">Here</a> are some examples for Chapter 1 of the first course. This means it takes longer to produce the first draft but is more time efficient for those of us who require multiple drafts to get a good quality video. Think of about 1000 words for an 8 minute video.</li>
+<li>A bonus of writing the scripts in advance is that they are helpful when adding closed-captioning to the videos (really useful for international audiences). Here is the system that we used to add closed captions to the videos:
+<ul>
+<li>Go to Youtube, open an account (that is free), and upload the video.</li>
+<li>After a bit of time (needed to process the video), you can go to the “subtitles” part and add captions.</li>
+<li>Upload the script (as a text file) without timings. Then, Youtube will sync up your file with the video and add timings to it.</li>
+<li>Wait a bit. Ten minutes seemed to work well (although the system warns you it may require more time). Then, you can download the closed-caption file using one of three formats. We use the “.srt” extension because this is what the hosting site (Kaltura) uses. Despite the extension, these are all just text files and so it is simple to edit if you find errors you wish to fix.</li>
+<li>Then, we simply uploaded the video file (often .mpeg) and the closed-caption file to the hosting site. Done. You can delete the work from Youtube, if you wish.</li>
+</ul></li>
 </ul>
 </div>
 <div id="tutorial-problem-contributors" class="section level2">
@@ -302,7 +309,7 @@ var submitAnswer = function() {
 <p>These are fairly specialized part of the tutorial system; so, our strategy is to have one or two volunteers that will focus on this aspect. They provide guidance to users on how to correct commonly occurring mistakes. They are a super helpful part of so-called “intelligent tutoring systems” but may take us awhile to implement properly.</p>
 <p>Like the app <em>Datacamp Light</em>, Datacamp has created an app called <em>testwhat</em> for providing feedback on the <code>R</code> version of <em>Datacamp Light</em> (another app called <a href="https://pythonwhat.readthedocs.io/en/latest/">pythonwhat</a> is for Python code. <a href="https://intercom.help/datacamp-teach/en/articles/2348740-submission-correctness-tests-deep-dive">Other apps</a> are also available for SQL, Shell, and Spreadsheets.).</p>
 <p>Our users submit their code to Datacamp servers and so there is nothing for us to install.</p>
-<p>The Submission Correction Tests (SCTs) provides us an opportunity to give “individualized” feedback to help students learn from their mistakes. The basics of the syntax are available from the <a href="https://datacamp.github.io/testwhat/">testwhat site</a>. <strong>Go through each of the tabs (Syntax, Glossary, Guides, and so on).</strong> Our main challenge will be to anticipate the main types of mistakes that students might make and provide code to help them along.</p>
+<p>The Submission Correction Tests (SCTs) provides us an opportunity to give “individualized” feedback to help students learn from their mistakes. The basics of the syntax are available from the <a href="https://datacamp.github.io/testwhat/">testwhat site</a>. <strong>Go through each of the tabs (Syntax, Glossary, Guides, and so on).</strong> Our challenge will be to anticipate the main types of mistakes that students might make and provide code to help them along.</p>
 <p>Here are some additional sources that may be helpful:</p>
 <ul>
 <li>We have an overview that was written by a <a href="https://ewfreesres.github.io/SCT-in-R/index.html">Wisconsin student</a>. Given the new version of the <a href="https://datacamp.github.io/testwhat/">testwhat site</a>, it is not as important now. Still, nice to get a student’s perspective.</li>
