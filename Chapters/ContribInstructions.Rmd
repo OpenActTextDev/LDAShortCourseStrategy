@@ -132,7 +132,9 @@ We hope that you (and anyone else) will be interested in taking the foundations 
 
 
 1.  Start by getting a (free) Github account.
-2.  We are going to follow the process documented at https://happygitwithr.com/existing-github-first.html, so you might want to look over this excellent resource before beginning.
+    *  Install Git on your local machine (https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+    *  Get a personal access token that you will need when you communicate between Rstudio and Github. (https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+2.   We are going to follow the process documented at https://happygitwithr.com/existing-github-first.html, so you might want to look over this excellent resource before beginning.
 3.  16.1 Make a repo on GitHub
     *  Go to https://github.com and make sure you are logged in.
     *  Click the green “New repository” button. Or, if you are on your own profile page, click on “Repositories”, then click the green “New” button.
@@ -152,8 +154,7 @@ We hope that you (and anyone else) will be interested in taking the foundations 
 https://stackoverflow.com/questions/38004148/another-git-process-seems-to-be-running-in-this-repository)
 7.  Now, we can leave the shell
     *  Git tab ==> Commit ==>Provide a short descriptive name
-    *  Then hit the push (up arrow)
-Hopefully everything goes up to Github.
+    *  Then hit the push (up arrow). When it asks for authentication, put in your Github name. Use the personal access token instead of the Github password. Hopefully everything goes up to Github.
 8.  Finally to get the world to see your page:
     *  Settings ==> GitHub pages ==>Check it out here! ==> 
     *  Source Change "None" to "main". Change "/root" to "/docs" . Then save.

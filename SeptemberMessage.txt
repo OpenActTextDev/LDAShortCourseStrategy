@@ -1,0 +1,66 @@
+
+
+Subject: Version 1.0 is now complete
+
+Hello All.
+
+It has been a long struggle but I think it is now time to call the course complete. Naturally, there are always things to improve but I think we are at least at Version 1.0 now. 
+
+The short course now sits in two places:
+ Our "development site" https://openacttextdev.github.io/LDACourse1/
+ The "production site"  https://openacttexts.github.io/LDACourse1/
+
+Right now, the courses are identical. However, we have put out many requests for review and we'll continuously update the development site. We'll update the production site only once every 6 months or so (to go with school years).
+
+On the strategy site, I have added instructions describing how you (or your students or colleagues) can clone the course and modify it for your own purposes
+https://openacttextdev.github.io/LDAShortCourseStrategy/C-Instructions.html#using-the-short-course
+
+I hope you will.
+
+I'll now work on getting the word out - you also tell your friends and colleagues. We'll have Google analytics turned on and so in a few months we can see whether or not the course is being used. I am hoping to be a bit more rested by then and we might try for a follow-up course. We'll see.
+
+For those of you starting a new school year, good luck. And for those in the middle of your year and hoping to survive, best wishes as well.
+
+Thanks for your contributions. This is a new venture and has the potential of becoming something important for the actuarial profession. Time will tell.
+
+Best regards, Jed
+
+***************
+Hello Adam, Francis, and Tim
+
+Subject: Actuarial Short Course Available
+
+I am writing to sort of "officially" announce that we have finished a short-course on Loss Data Analytics. The course is available at https://openacttexts.github.io/LDACourse1/ and a short description can be found in a newletter of a section of the International Actuarial Association (IAA), https://www.actuaries.org/IAA/Documents/ASTIN/Newsletters/2021/astin_newsletter_2021_08.pdf.
+
+Most of this material is in a course that Tim teaches and he, in fact, is one of the contributors. He'll be a good resource at ANU should anyone wish to follow up.
+
+Adam and Francis, I am writing you because, at many places, instructors of statistics courses catering to an actuarial audience often seek insurance/actuarial applications. So, if someone is teaching a course on how to fit a negative binomial  or a gamma distribution, well, we have insurance examples to help supplement the course. I also thought that you might be interested in the generic teaching pedagogy (using Datacamp tutorials) and might also help improve the delivery. This is something new for the IAA and we are trying to figure out if this style is worth continuing. (Francis, you and I have been collaborating on supervising research yet so I'm not sure of your other teaching interests. In any case, definitely feel free to forward this note/concept to others if you think they might be interested.)
+
+All the best, Jed
+***************
+Subject: Short Course - Next Steps
+
+Hello Myuki, Yvonne, Raj, and Paul.
+
+As you saw in my other note to the larger group, I decided to label a version 1.0. There are so many things that I would like to do to improve it but I think we are at a good stopping point.
+
+In the short term, I think I owe it to the contributors to do what I can to publicize the work.
+Miyuki and I have already written a piece that appeared in the ASTIN  Annual  Report 2020-2021. Information  on  the  ASTIN  Academy appears on page 33 and on page 40 is a presentation of open educational resources, the philosophy underpinning the short course structure. 
+We also have something that just came out in the ASTIN newsletter on Tuesday, https://www.actuaries.org/IAA/Documents/ASTIN/Newsletters/2021/astin_newsletter_2021_08.pdf
+I will do something similar for the SOA listserves
+Paul, I am thinking that you and I might write something for the E & R Section Newsletter based on these two sources.
+Miyuki, do think you could connect with Frank and possibly Dimitri to see if there are other ways that ASTIN can publicize the course?
+
+On a related note, we have nearly finished up the Spanish translation of the Loss Data Analytics book. The book is available at https://openacttexts.github.io/LDASpanish/. Miyuki, I think we should discuss the pros and cons of having the Astin Academy be a (non-monetary) sponsor of the book. To me, although the pedagogy differs I think the goals underpinning it are consistent with one another. If so, we can think about jointly publicizing these efforts. For example, both the SOA and CAS have Lating American committees whom I think would at least be interested in knowing about the Spanish translation - maybe also in the short course.
+
+Beyond the publicity, we (Raj, Yvonne, and Miyuki) discussed the idea of having practicing actuaries provide testimonials of some sort at the end of each chapter. Maybe now is a good time to restart these discussions? I did an interview with the IAA as part of the international day. My particular interview wasn't great - I later learned that this was because of a poor connection that I had (now since fixed). But, perhaps they could be used to conduct the interviews? In any case, let me know if we should agree to meet again to restart this conversation.
+
+Except for these items, I have no plans about moving the forward on another course. I am hoping to get suggestions for improvement on the short course from users and others who have said they will review it. Yvonne and her colleague may improve the course through the submission correction tests and I will help implement these improvements. I am thinking to wait until November or December to decide on moving forward on another course.
+
+In any case, great to see that we have a good quality product available to all. Very exciting to think that this has the potential to influence worldwide actuarial education.
+
+Best, Jed
+
+
+
+
