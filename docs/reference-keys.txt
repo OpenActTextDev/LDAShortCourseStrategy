@@ -5,4 +5,7 @@ tutorial-problem-contributors
 datacamp-light
 data
 Sec:SCT
+using-the-short-course
+download-and-edit-a-local-copy-of-the-course
+upload-your-course-version-to-github
 C:VolunteerCall

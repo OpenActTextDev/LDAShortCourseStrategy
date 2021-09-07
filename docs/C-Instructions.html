@@ -49,6 +49,7 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <script language="javascript">
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
@@ -197,6 +198,10 @@ var submitAnswer = function() {
 <li class="chapter" data-level="2.2.2" data-path="C-Instructions.html"><a href="C-Instructions.html#data"><i class="fa fa-check"></i><b>2.2.2</b> Data</a></li>
 </ul></li>
 <li class="chapter" data-level="2.3" data-path="C-Instructions.html"><a href="C-Instructions.html#Sec:SCT"><i class="fa fa-check"></i><b>2.3</b> Submission Correction Tests Contributors</a></li>
+<li class="chapter" data-level="2.4" data-path="C-Instructions.html"><a href="C-Instructions.html#using-the-short-course"><i class="fa fa-check"></i><b>2.4</b> Using the Short Course</a><ul>
+<li class="chapter" data-level="2.4.1" data-path="C-Instructions.html"><a href="C-Instructions.html#download-and-edit-a-local-copy-of-the-course"><i class="fa fa-check"></i><b>2.4.1</b> Download and Edit a Local Copy of the Course</a></li>
+<li class="chapter" data-level="2.4.2" data-path="C-Instructions.html"><a href="C-Instructions.html#upload-your-course-version-to-github"><i class="fa fa-check"></i><b>2.4.2</b> Upload your Course Version to Github</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="C-VolunteerCall.html"><a href="C-VolunteerCall.html"><i class="fa fa-check"></i><b>3</b> A Call for Volunteers</a><ul>
 <li class="chapter" data-level="" data-path="C-VolunteerCall.html"><a href="C-VolunteerCall.html#alternative-course-designs"><i class="fa fa-check"></i>Alternative Course Designs</a></li>
@@ -321,7 +326,70 @@ var submitAnswer = function() {
 <li><a href="https://intercom.help/datacamp-teach/en/articles/2348777-submission-correctness-tests-best-practices">Best Practices</a></li>
 </ul></li>
 </ul>
+</div>
+<div id="using-the-short-course" class="section level2">
+<h2><span class="header-section-number">2.4</span> Using the Short Course</h2>
+<p>We hope that you (and anyone else) will be interested in taking the foundations of the short course and modifying it to suit your own needs. To make this happen, here are two potentially important pieces:</p>
+<div id="download-and-edit-a-local-copy-of-the-course" class="section level3">
+<h3><span class="header-section-number">2.4.1</span> Download and Edit a Local Copy of the Course</h3>
+<ol style="list-style-type: decimal">
+<li>Optional - Get reasonably recent versions of R and Rstudio. Sometimes, there can be conflicts if you are running very old versions these products. (Probably best to do this step at a later stage in case you run into problems that you can’t debug.)</li>
+<li>Optional - Update packages. We have discovered conflicts between some of the advanced graphics/RGL and javascript in chapter 3 with old versions of some packages. Surprisingly, the one exception is the package bookdown. We found that an old version (0.21) works best. So, use this code:
+<ul>
+<li>require(devtools)</li>
+<li>install_version(“bookdown”, version = “0.21”, repos = “<a href="http://cran.us.r-project.org" class="uri">http://cran.us.r-project.org</a>”)</li>
+</ul></li>
+<li>Download a copy of the book. Go to Github, <a href="https://github.com/OpenActTextDev/LifeCon" class="uri">https://github.com/OpenActTextDev/LifeCon</a>, hit the green “Code” button, download a .zip file and uncompress it.</li>
+<li>Open R-studio, go to “File==&gt;Open Project”. From the folder you just downloaded and uncompressed, select “LifeCon.Rproj”.</li>
+<li>In R studio, open the file “PackagesLifeCon.Rmd” (but do not knit it). These are the packages that will be called when you compile the book, so install them now if needed.</li>
+<li>In R-studio, go to the upper right tab, hit “Build”. This brings up a “Build Book” tab. Click the down arrow to the right and select “bookdown::gitbook”. This starts the compile process.</li>
+<li>Upon successful compile, you should see a preview of the book. If it gets lost, go to the “docs” subfolder and open “index.html” in a browser, hopefully you see the compiled book.</li>
+<li>As you edit the book, go to the file "_bookdown.yml". This allows you to select the .Rmd files (and the order) that you wish to appear in the book.</li>
+</ol>
+</div>
+<div id="upload-your-course-version-to-github" class="section level3">
+<h3><span class="header-section-number">2.4.2</span> Upload your Course Version to Github</h3>
+<ol style="list-style-type: decimal">
+<li>Start by getting a (free) Github account.</li>
+<li>We are going to follow the process documented at <a href="https://happygitwithr.com/existing-github-first.html" class="uri">https://happygitwithr.com/existing-github-first.html</a>, so you might want to look over this excellent resource before beginning.</li>
+<li>16.1 Make a repo on GitHub
+<ul>
+<li>Go to <a href="https://github.com" class="uri">https://github.com</a> and make sure you are logged in.</li>
+<li>Click the green “New repository” button. Or, if you are on your own profile page, click on “Repositories”, then click the green “New” button.</li>
+<li>Pick a repository name that actually reminds you what the project is about! But try to be concise.</li>
+<li>Public = YES Initialize this repository with a README</li>
+<li>Click the big green button “Create repository.”</li>
+<li>Copy the HTTPS clone URL to your clipboard via the green “Clone or Download” button.</li>
+</ul></li>
+<li>In R-studio, open a new project.
+<ul>
+<li>“File==&gt;New Project==&gt;Version Control==&gt;Git”. In the “repository URL” paste the URL of your new GitHub repository. It will be something like this <a href="https://github.com/jennybc/myrepo.git" class="uri">https://github.com/jennybc/myrepo.git</a>.</li>
+</ul></li>
+<li>Close R studio and copy the existing project onto the one you just created.</li>
+<li>Open R studio with the newly created project. I have had a little trouble getting the first commit done on my machine. So, I have to do it by hand:
+<ul>
+<li>Tools==&gt;Shell</li>
+<li>git status</li>
+<li>rm -f .git/index.lock</li>
+<li>git add . –all
+(The rm command is from:
+<a href="https://stackoverflow.com/questions/38004148/another-git-process-seems-to-be-running-in-this-repository" class="uri">https://stackoverflow.com/questions/38004148/another-git-process-seems-to-be-running-in-this-repository</a>)</li>
+</ul></li>
+<li>Now, we can leave the shell
+<ul>
+<li>Git tab ==&gt; Commit ==&gt;Provide a short descriptive name</li>
+<li>Then hit the push (up arrow)
+Hopefully everything goes up to Github.</li>
+</ul></li>
+<li>Finally to get the world to see your page:
+<ul>
+<li>Settings ==&gt; GitHub pages ==&gt;Check it out here! ==&gt;</li>
+<li>Source Change “None” to “main”. Change “/root” to “/docs” . Then save.</li>
+</ul></li>
+</ol>
+<p>May need to wait a couple minutes. Then, you can view your new book at, for example, <a href="https://ewfreesres.github.io/TestActMatch/" class="uri">https://ewfreesres.github.io/TestActMatch/</a></p>
 
+</div>
 </div>
 </div>
             </section>
